@@ -7,9 +7,7 @@ export default new Vuex.Store(
   {
     state: {
       version: 1, // increase the version when the structure of the storage changes
-      words: [],
-      studysets: studysetData,
-      cards: cardData
+      persons: []
     },
     mutations: {
       initStore(state) {
